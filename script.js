@@ -11,23 +11,23 @@ const productsV2 = {
     home: [
         { id: 'hom1', name: 'Throw Pillow', description: 'Decorative cushion', price: 3.99, image: 'https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=300&h=300&fit=crop', category: 'home' },
         { id: 'hom2', name: 'Wall Art', description: 'Modern canvas print', price: 5.99, image: 'https://images.unsplash.com/photo-1582037928769-181f2644ecb7?w=300&h=300&fit=crop', category: 'home' },
-        { id: 'hom3', name: 'Table Lamp', description: 'Ambient lighting', price: 7.99, image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=300&h=300&fit=crop', category: 'home' },
-        { id: 'hom4', name: 'Throw Blanket', description: 'Soft cozy blanket', price: 4.99, image: 'https://images.unsplash.com/photo-1610714768018-4bd5d0c55c1e?w=300&h=300&fit=crop', category: 'home' },
+        { id: 'hom3', name: 'Table Lamp', description: 'Ambient lighting', price: 7.99, image: 'https://images.unsplash.com/photo-1543198126-a8ad8e47a917?w=300&h=300&fit=crop', category: 'home' },
+        { id: 'hom4', name: 'Throw Blanket', description: 'Soft cozy blanket', price: 4.99, image: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=300&h=300&fit=crop', category: 'home' },
         { id: 'hom5', name: 'Plant Pot', description: 'Ceramic planter', price: 2.99, image: 'https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=300&h=300&fit=crop', category: 'home' },
-        { id: 'hom6', name: 'Candle Set', description: 'Scented candles', price: 3.99, image: 'https://images.unsplash.com/photo-1602874801006-e24aa9f9e22c?w=300&h=300&fit=crop', category: 'home' }
+        { id: 'hom6', name: 'Candle Set', description: 'Scented candles', price: 3.99, image: 'https://images.unsplash.com/photo-1603006905003-be475563bc59?w=300&h=300&fit=crop', category: 'home' }
     ],
     desk: [
-        { id: 'dsk1', name: 'Desk Organizer', description: 'Multi-compartment holder', price: 2.49, image: 'https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?w=300&h=300&fit=crop', category: 'desk' },
+        { id: 'dsk1', name: 'Desk Organizer', description: 'Multi-compartment holder', price: 2.49, image: 'https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=300&h=300&fit=crop', category: 'desk' },
         { id: 'dsk2', name: 'Notebook Set', description: 'Premium notebooks', price: 3.99, image: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=300&h=300&fit=crop', category: 'desk' },
-        { id: 'dsk3', name: 'Pen Holder', description: 'Stylish pen organizer', price: 1.99, image: 'https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=300&h=300&fit=crop', category: 'desk' },
+        { id: 'dsk3', name: 'Pen Holder', description: 'Stylish pen organizer', price: 1.99, image: 'https://images.unsplash.com/photo-1564514298643-e1e8f5c6c5b1?w=300&h=300&fit=crop', category: 'desk' },
         { id: 'dsk4', name: 'Desk Lamp', description: 'LED task lighting', price: 6.99, image: 'https://images.unsplash.com/photo-1565894937956-2c22e3f6f93e?w=300&h=300&fit=crop', category: 'desk' },
-        { id: 'dsk5', name: 'Cable Organizer', description: 'Cable management', price: 1.49, image: 'https://images.unsplash.com/photo-1625948515291-69613efd103f?w=300&h=300&fit=crop', category: 'desk' },
+        { id: 'dsk5', name: 'Cable Organizer', description: 'Cable management', price: 1.49, image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=300&fit=crop', category: 'desk' },
         { id: 'dsk6', name: 'Mouse Pad', description: 'Large gaming pad', price: 2.99, image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=300&h=300&fit=crop', category: 'desk' }
     ],
     gift: [
         { id: 'gif1', name: 'Gift Box Set', description: 'Luxury gift packaging', price: 2.49, image: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=300&h=300&fit=crop', category: 'gift' },
         { id: 'gif2', name: 'Chocolate Box', description: 'Premium chocolates', price: 4.99, image: 'https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=300&h=300&fit=crop', category: 'gift' },
-        { id: 'gif3', name: 'Greeting Cards', description: 'Handmade cards set', price: 1.99, image: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=300&h=300&fit=crop', category: 'gift' },
+        { id: 'gif3', name: 'Greeting Cards', description: 'Handmade cards set', price: 1.99, image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=300&fit=crop', category: 'gift' },
         { id: 'gif4', name: 'Gift Bag', description: 'Reusable gift bag', price: 1.49, image: 'https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=300&h=300&fit=crop', category: 'gift' },
         { id: 'gif5', name: 'Ribbon Set', description: 'Decorative ribbons', price: 1.99, image: 'https://images.unsplash.com/photo-1607083206325-caf1edba7a0f?w=300&h=300&fit=crop', category: 'gift' },
         { id: 'gif6', name: 'Gift Tags', description: 'Personalized tags', price: 0.99, image: 'https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=300&h=300&fit=crop', category: 'gift' }
@@ -35,10 +35,10 @@ const productsV2 = {
     hobby: [
         { id: 'hob1', name: 'Yoga Mat', description: 'Non-slip exercise mat', price: 4.99, image: 'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=300&h=300&fit=crop', category: 'hobby' },
         { id: 'hob2', name: 'Water Bottle', description: 'Insulated bottle', price: 3.99, image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=300&h=300&fit=crop', category: 'hobby' },
-        { id: 'hob3', name: 'Resistance Bands', description: 'Fitness bands set', price: 2.99, image: 'https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=300&h=300&fit=crop', category: 'hobby' },
+        { id: 'hob3', name: 'Resistance Bands', description: 'Fitness bands set', price: 2.99, image: 'https://images.unsplash.com/photo-1611672585731-fa10603fb9e0?w=300&h=300&fit=crop', category: 'hobby' },
         { id: 'hob4', name: 'Sports Bag', description: 'Gym duffel bag', price: 5.99, image: 'https://images.unsplash.com/photo-1547949003-9792a18a2601?w=300&h=300&fit=crop', category: 'hobby' },
-        { id: 'hob5', name: 'Exercise Gloves', description: 'Workout gloves', price: 2.49, image: 'https://images.unsplash.com/photo-1556906781-9a412961c28c?w=300&h=300&fit=crop', category: 'hobby' },
-        { id: 'hob6', name: 'Jump Rope', description: 'Speed jump rope', price: 1.99, image: 'https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=300&h=300&fit=crop', category: 'hobby' }
+        { id: 'hob5', name: 'Exercise Gloves', description: 'Workout gloves', price: 2.49, image: 'https://images.unsplash.com/photo-1584735175315-9d5df23860bc?w=300&h=300&fit=crop', category: 'hobby' },
+        { id: 'hob6', name: 'Jump Rope', description: 'Speed jump rope', price: 1.99, image: 'https://images.unsplash.com/photo-1611672585731-fa10603fb9e0?w=300&h=300&fit=crop', category: 'hobby' }
     ]
 };
 
@@ -76,6 +76,8 @@ function startBundling() {
     showPage('bundle-page');
     renderProducts();
     updateCartUI();
+    // Scroll to top to show category tabs
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function showCart() {
