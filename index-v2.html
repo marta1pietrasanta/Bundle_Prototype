@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle & Save - Build Your Perfect Bundle</title>
+    <link rel="stylesheet" href="styles-v2.css?v=2.0">
+</head>
+<body>
+    <div id="app">
+        <!-- Home Page Banner -->
+        <section id="home-page" class="page active">
+            <div class="banner-container">
+                <div class="banner-content">
+                    <div class="emoji-bundle">🎁</div>
+                    <h1>Bundle & Save Big! 💰</h1>
+                    <h2>BUILD YOUR BUNDLE, GET DISCOUNTS!</h2>
+                    <div class="features">
+                        <p>✅ 3 items = 10% OFF</p>
+                        <p>✅ 5 items = 15% OFF</p>
+                        <p>✅ 7+ items = 20% OFF</p>
+                    </div>
+                    <button class="cta-button" onclick="startBundling()">
+                        🛍️ Start Bundling
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bundle Builder -->
+        <section id="bundle-page" class="page">
+            <div class="bundle-container">
+                <!-- Sticky Header with Cart Summary -->
+                <div class="bundle-header">
+                    <h1>🎁 Build Your Bundle</h1>
+                    <div class="cart-summary">
+                        <div class="cart-info">
+                            <span class="item-count"><span id="cart-count">0</span> items</span>
+                            <span class="cart-total">Total: €<span id="cart-total">0.00</span></span>
+                        </div>
+                        <div class="discount-indicator" id="discount-indicator">
+                            Add 3 items for 10% OFF
+                        </div>
+                        <button class="view-cart-btn" onclick="showCart()">
+                            🛒 View Bundle (<span id="cart-count-btn">0</span>)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Category Tabs -->
+                <div class="category-tabs">
+                    <button class="tab-btn active" onclick="switchCategory('outfit')">👔 Build Your Outfit</button>
+                    <button class="tab-btn" onclick="switchCategory('home')">🏠 Furnish Your House</button>
+                    <button class="tab-btn" onclick="switchCategory('desk')">📝 Organize Your Desk</button>
+                    <button class="tab-btn" onclick="switchCategory('gift')">🎁 Make a Gift</button>
+                    <button class="tab-btn" onclick="switchCategory('hobby')">⚽ Hobbies</button>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="products-container">
+                    <div id="category-title" class="category-title">👔 Build Your Outfit</div>
+                    <div id="product-grid" class="product-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cart/Bundle Review -->
+        <section id="cart-page" class="page">
+            <div class="cart-container">
+                <div class="cart-header">
+                    <h2>🛒 Your Bundle</h2>
+                    <button class="back-btn" onclick="backToShopping()">← Continue Shopping</button>
+                </div>
+
+                <div class="cart-content">
+                    <div id="cart-items" class="cart-items"></div>
+                    
+                    <div class="cart-summary-box">
+                        <div class="summary-row">
+                            <span>Subtotal (<span id="summary-count">0</span> items):</span>
+                            <span>€<span id="summary-subtotal">0.00</span></span>
+                        </div>
+                        <div class="summary-row discount-row">
+                            <span>Discount (<span id="summary-discount-percent">0</span>%):</span>
+                            <span class="discount-amount">-€<span id="summary-discount">0.00</span></span>
+                        </div>
+                        <div class="summary-row total-row">
+                            <span>Total:</span>
+                            <span class="total-amount">€<span id="summary-total">0.00</span></span>
+                        </div>
+
+                        <div class="discount-progress">
+                            <div id="discount-message" class="discount-message"></div>
+                            <div class="progress-bar">
+                                <div id="progress-fill" class="progress-fill"></div>
+                            </div>
+                        </div>
+
+                        <button class="checkout-btn" onclick="proceedToCheckout()">
+                            💳 Proceed to Checkout
+                        </button>
+
+                        <div class="share-bundle">
+                            <p>Love your bundle?</p>
+                            <button class="share-btn" onclick="shareBundle()">📱 Share Bundle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script-v2.js?v=2.0"></script>
+</body>
+</html>
