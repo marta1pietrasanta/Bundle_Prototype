@@ -54,8 +54,8 @@ const categoryInfo = {
 // Discount Tiers
 const discountTiers = [
     { items: 3, discount: 10 },
-    { items: 5, discount: 15 },
-    { items: 7, discount: 20 }
+    { items: 6, discount: 15 },
+    { items: 9, discount: 20 }
 ];
 
 // Game State
